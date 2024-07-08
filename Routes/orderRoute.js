@@ -73,8 +73,8 @@ router.post('/orderdetails', async (req, res) => {
       payment_method_types: ['card'],
       line_items,
       mode: 'payment',
-      success_url: 'http://localhost:3000/user/welcome', 
-      cancel_url: 'http://localhost:3000', 
+      success_url: 'https://mernbackend-1-9ihi.onrender.com/user/welcome', 
+      cancel_url: 'https://mernbackend-1-9ihi.onrender.com', 
       customer_email: email,
     });
   
