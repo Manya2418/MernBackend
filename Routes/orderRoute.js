@@ -73,8 +73,8 @@ router.post('/orderdetails', async (req, res) => {
       payment_method_types: ['card'],
       line_items,
       mode: 'payment',
-      success_url: 'https://mernbackend-1-9ihi.onrender.com/user/welcome', 
-      cancel_url: 'https://mernbackend-1-9ihi.onrender.com', 
+      success_url: 'https://food-project-food-i2jz.vercel.app/user/welcome', 
+      cancel_url: 'https://food-project-food-i2jz.vercel.app/', 
       customer_email: email,
     });
   
